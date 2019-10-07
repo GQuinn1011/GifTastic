@@ -54,3 +54,15 @@ input[type=submit] {
     border-radius: 4px;
     color: white;
 }
+
+@-ms-viewport {
+    width: device-width;
+    height: device-width;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: darkgoldenrod;
+    }
+}
