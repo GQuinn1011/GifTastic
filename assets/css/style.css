@@ -4,3 +4,8 @@ form,
 input {
     margin: 10px;
 }
+
+button {
+    background-color: darkred;
+    color: white;
+}
