@@ -1,5 +1,5 @@
 $(document).ready(function() {
-        var topics = ["49ers", "new york giants", "dallas cowboys", "philadelphia eagles"];
+        var topics = ["Jack-O-Lanterns", "Ghosts", "Vampires", "Halloween", "Spiders", "Scary"];
 
         function renderButtons() {
             $("buttons-view").empty();
@@ -43,7 +43,7 @@ $(document).ready(function() {
                 var results = response.data
                 for (var i = 0; i < results.length; i++) {
 
-                    var imageDiv = $("<div>");
+                    var imageDiv = $("<div>").addClass("col");
                     var p = $("<p>").text("Rating: " + results[i].rating);
                     var gifPic = $("<img>");
                     gifPic.attr("src", results[i].images.fixed_height_still.url);

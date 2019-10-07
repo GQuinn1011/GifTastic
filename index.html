@@ -10,28 +10,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="assets/javascript/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Underdog&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <div id="buttons-view"></div>
 
 
     <div class="container">
-        <h1>Gif Tastic</h1>
+        <h1>Spook-Tastic Gifs!</h1>
 
         <!-- Buttons will Get Dumped Here -->
-        <div id="buttons-view"></div>
 
         <form id="image-form">
-            <label for="image-input">Look</label>
+            <label for="image-input">Look for:</label>
             <input type="text" id="image-input"><br>
 
-            <!-- Button triggers new movie to be added -->
-            <input id="add-image" type="submit" value="Find a Gif!">
+            <!-- Button triggers gifs to be added -->
+            <input id="add-image" type="submit" value="Find your Gif!">
         </form>
-        <div id="images-view"></div>
+        <div class="row">
+            <div id="images-view" class="col"></div>
 
-
+        </div>
 
 </body>
 

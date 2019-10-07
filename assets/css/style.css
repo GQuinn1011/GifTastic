@@ -1,11 +1,56 @@
-button,
 div,
 form,
 input {
     margin: 10px;
 }
 
+.container {
+    margin-left: 0;
+}
+
 button {
-    background-color: darkred;
+    margin: 5px;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-family: 'Underdog', cursive;
+    font-size: 32pt;
+}
+
+body {
+    background: url("../images/haunted-house.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.col {
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Underdog', cursive;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 4px;
     color: white;
 }
